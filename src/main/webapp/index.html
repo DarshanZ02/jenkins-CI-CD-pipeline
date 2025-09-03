@@ -10,7 +10,7 @@
           margin: 0;
           padding: 0;
           font-family: "Poppins", sans-serif;
-          background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+          background: linear-gradient(135deg, #1b1b1b, #4a040460);
           color: white;
           display: flex;
           justify-content: center;
@@ -26,10 +26,10 @@
     
         h1 {
           font-size: 2.8rem;
-          background: linear-gradient(90deg, #00c6ff, #0072ff);
+          background: linear-gradient(90deg, #fbff00, #ffa600);
           -webkit-background-clip: text;
+          text-transform: uppercase;
           -webkit-text-fill-color: transparent;
-          animation: glow 2s infinite alternate;
         }
     
         p {
@@ -39,44 +39,15 @@
           animation: slideUp 2s ease-in-out;
         }
     
-        .btn {
-          margin-top: 40px;
-          padding: 12px 30px;
-          font-size: 1rem;
-          border: none;
-          border-radius: 30px;
-          background: linear-gradient(90deg, #ff8a00, #e52e71);
-          color: white;
-          cursor: pointer;
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-    
-        .btn:hover {
-          transform: scale(1.1);
-          box-shadow: 0 0 20px rgba(229, 46, 113, 0.8);
-        }
-    
-        @keyframes fadeIn {
-          from { opacity: 0; transform: translateY(30px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-    
-        @keyframes slideUp {
-          from { transform: translateY(50px); opacity: 0; }
-          to { transform: translateY(0); opacity: 1; }
-        }
-    
-        @keyframes glow {
-          from { text-shadow: 0 0 10px #00c6ff, 0 0 20px #0072ff; }
-          to { text-shadow: 0 0 20px #00c6ff, 0 0 40px #0072ff; }
-        }
+      
+
       </style>
     </head>
     <body>
       <div class="container">
         <h1>Automate Builds & Deployments</h1>
-        <p>Seamless CI/CD with Jenkins + GitHub Webhooks 🚀</p>
-        <button class="btn">Get Started</button>
+        <p>Seamless CI/CD with Jenkins with GitHub Webhooks</p>
+        <p>Thanks to dr. kastro Kiran Sir</p>
       </div>
 </body>
 </html>
